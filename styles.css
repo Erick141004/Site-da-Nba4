@@ -239,11 +239,6 @@ footer
        align-items: center;
    }
 
-    body
-    {
-        padding: 5px 25px 25px 25px;
-    }
-
 }
 
 @media screen and (max-width: 600px)
@@ -255,7 +250,11 @@ footer
        padding-left: 0;
       
     }
- 
+    
+    .coluna
+    {
+         padding: 5px 25px 25px 25px;
+    }
 
     main
     {

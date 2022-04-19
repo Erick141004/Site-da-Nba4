@@ -1,0 +1,149 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: white;
+    color: #0a3665;
+    margin: 0;
+    font-family: 'Candara', 'Roboto', Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+h1, h2
+{
+    margin: 0;
+}
+
+header h1
+{
+    font-size: 4rem;
+    user-select: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+header
+{
+    background-color: #0a3665;
+}
+
+#logo
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#logoImg
+{
+    padding-right: 10px;
+    pointer-events: none;
+    border-radius: 20px;
+}
+
+
+.menu
+{
+    background-color: #066ab2;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a
+{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    transition: background-color 0,5s;
+}
+
+.menu a:hover
+{
+    background-color: #0a3665; 
+}
+
+.center
+{
+    margin: 50px;
+    text-align: center;
+}
+
+#email
+{
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+}
+
+textarea
+{
+    resize: none;
+    border-color: #0a3665;
+    border-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 500px;
+}
+
+
+footer 
+{
+    color: white;
+    background-color: black;
+    text-align: center;
+   
+}
+
+.rodape
+{
+    padding: 10px;
+
+}
+
+
+.social
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.social img
+{
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.social img:hover
+{
+    opacity: 0.5;
+}
+
+#direitos p
+{
+    text-align: right;
+    margin-bottom: 0;
+    padding: 5px;
+    color: white;
+    bottom: 50px;
+    right: 50px;
+}
+
+.separacao
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
